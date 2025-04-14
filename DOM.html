@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <title>dom</title>
+        <style>
+            #division1{
+                background-color: bisque;  
+            }
+            #heading1{
+                background-color: beige;
+                font-family:cursive
+            }
+        </style>
+    </head>
+    <body>
+        <script>
+            let div1=document.createElement("div");
+            div1.id="division1";
+            div1.innerHTML="Hello JS";
+            document.body.append(div1)
+            
+            let h1=document.createElement("h1");
+            h1.id="heading1";
+            h1.innerHTML="Hello JS";
+            document.body.append(h1)
+            
+        </script>
+    </body>
+</html>
