@@ -4,10 +4,12 @@
         <style>
             #division1{
                 background-color: bisque;  
+                size: 50px;
             }
             #heading1{
                 background-color: beige;
-                font-family:cursive
+                font-family:cursive;
+                font-size: 8px;
             }
         </style>
     </head>
@@ -22,6 +24,11 @@
             h1.id="heading1";
             h1.innerHTML="Hello JS";
             document.body.append(h1)
+
+             let p1=document.createElement("p");
+            h1.id="paragraph1";
+            h1.innerHTML="JavaScript is a versatile, high-level programming language primarily used to create dynamic and interactive content on websites. It is a cornerstone of web development, alongside HTML and CSS, enabling developers to build responsive user interfaces, handle events, and manipulate the Document Object Model (DOM)Known for its flexibility, JavaScript supports both object-oriented and functional programming paradigms, making it adaptable to various coding styles. With the advent of modern frameworks like React, Angular, and Vue.js, as well as runtime environments like Node.js, JavaScript has expanded beyond the browser, powering server-side applications, mobile apps, and even IoT devices. Its vast ecosystem, active community, and continuous evolution make it an essential tool for developers worldwide."
+            document.body.append(p1)
             
         </script>
     </body>
